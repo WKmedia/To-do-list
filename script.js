@@ -1,6 +1,4 @@
 import './style.css';
-import backImage from './backImageSm.jpg';
-import Logo from './logo.jpg';
 
 
 class StartModule {
