@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <script type="module" src="./bundle.js"></script>
+    <div id="top-bar">
+        <div src="" alt="" id="logo"></div>
+        <h1 id='header'>To Do List</h1>
+    </div>
+    <div id="side-bar-container">
+        <div id="side-bar-nav">
+            <nav id="nav-container">
+                <ul id="home-menu">
+
+                    <li class="menu-item">Home <span>1</span></li>
+                    <li class="menu-item">Today <span>2</span></li>
+                    <li class="menu-item">Upcoming <span>3</span></li>
+                    <li class="menu-item">Personal <span>4</span></li>
+                    <li class="menu-item">Work <span>5</span></li>
+                    <li class="menu-item"></li>
+                    <li class="menu-item"></li>
+                    <li class="menu-item"></li>
+                </ul>
+                <ul id="'projects-menu">
+                    <li class="project-menu-item">Projects</li>
+                    <li class="project-menu-item">Pro1 <span>4</span></li>
+                    <li class="project-menu-item">Pro2 <span>3</span></li>
+                    <li class="project-menu-item">Pro3 <span>2</span></li>
+                    <li class="project-menu-item">Pro4 <span>1</span></li>
+                </ul>
+                <ul id="notes">
+                    
+                    <li id="added-note">Notes</li>
+                </ul>
+            </nav>
+            add button
+            <button id="add-new">+new to do</button>
+        </div>
+    </div>
+
+    <div id="main"> 
+        <h3 class="main-header">Users to do list</h3>
+        <ul id="users-todo-list">
+            <li class="todo-items">todo1</li>
+            <li class="todo-items">todo2</li>
+            <li class="todo-items">todo3</li>
+            <li class="todo-items">todo4</li>
+            <li class="todo-items">todo5</li>
+            <li class="todo-items">todo6</li>
+            <li class="todo-items">todo7</li>
+            <li class="todo-items">todo8</li>
+            <li class="todo-items">todo9</li>
+            <li class="todo-items">todo10</li>
+            <li class="todo-items">todo11</li>
+            <li class="todo-items">todo12</li>
+        </ul>
+    </div>
+
+    <!--PopUp window to create project, note or to-do-->
+    <div id="create-new" style="display:none;">
+        create new popup
+        <div id="top-bar-todo">//static section            
+            <h1 id='header-todo'>Create a new...</h1>
+        </div>
+
+        <div id="side-bar-create-new">//static section
+            <nav id="nav-container-todo">
+                <ul id="home-menu-todo">
+                    <li class="menu-item-todo">To Do</li>
+                    <li class="menu-item-todo">Project</li>
+                    <li class="menu-item-todo">Note</li>
+                </ul>
+            </nav>            
+        </div>
+    
+        <div id="main-create-new"> //dynamic section
+            <input type="text" id="textarea" placeholder="Title: "  palceholder="Details: "/>
+            <div id="create-new-menu">
+                <div id="due-date">Due Date: 
+                    <button id="full-date">MM/DD/YYYY</button>
+                </div>
+                    
+                <div id="priority">Priority:
+                    <button id="low">LOW</button>
+                    <button id="medium">MEDIUM</button>
+                    <button id="high">HIGH</button>                    
+                    <button id="add-to-do">Add To Do</button>                    
+                </div>
+                
+                    
+            </div>
+           
+        </div>
+    </div>
+
+
+<!-- sideBar(:
+    
+        menu: 
+            home, 
+            inbox - see all user todos + total amount
+            todays - task + total amount
+            upcoming - todos + total amount
+            personal - todos + total amount
+            work- todos' + total amount
+            project todos + total amount
+            Notes
+        create a new project or to do list:) -->
+
+    <!-- main window(:
+        
+            todo properties:
+                - priority color border 
+                - check toggle of to-do button
+                - to-do title
+                - details to-do button
+                - date to-do display
+                - edit to-do button
+                - delete to-do button
+                
+                 
+
+        display todo project
+) -->
+    
+   <!-- create to-do window( 
+        sidebar menu options selection:
+            -To do
+            -Project
+            -Note
+        main window text area 
+          - header...,
+          - textarea title:, 
+          - textarea details:,
+    bottom menu:
+          - due date:
+          - priority:
+          
+          - +add to list button
+          - close window button) -->
+
+    <!-- Logic(
+        install date-fns library
+        create a new to do and save it
+        create project todos and choose which project to save them in
+        default project to for users store to-dos
+        creating new todos
+        setting todos as complete
+        changing priority for todos
+        expand a single todo to see/edit its details
+        deleting a todo
+        local storage
+        add some persistence to this todo app using the Web Storage API)
+         -->
+
+<body>
+</html>

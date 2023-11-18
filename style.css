@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;300;500&display=swap');
+
+*{
+    /* border:solid 1px red; */
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:Helvetica, sans-serif ;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,div{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+span{
+    padding: 0 0 0 50px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    /* height: 768px; */
+    margin:auto;
+    margin-top:15px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 4px #999;
+}
+#top-bar{
+    width:100%;
+    display: flex;
+    background-color: ghostwhite;
+}
+#logo{
+    background-image: url(./logo.jpg);
+    width:65px;
+    height: 60px;
+    background-size: contain;
+    margin: 5px 10px;
+    border-radius: 50px;
+    background-position-y: -1px;
+}
+#header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: end;
+    /* margin: 0px 5px 0px 10px; */
+}
+#side-bar-container{
+    background-color: antiquewhite;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#side-bar-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    width:100%;
+}
+#nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+#home-menu{
+    width:100%;
+
+}
+.menu-item{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#project-menu{
+width: 100%;
+}
+.project-menu-item{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#notes{
+
+}
+#added-note{
+
+}
+#add-new{
+
+}
+#main{
+width: 75%;
+background-color: #9e9e9e1f;
+}
+.main-header{
+    padding: 15px 0 0 10px;
+}
+#users-todo-list{
+margin: 20px;
+}
+.todo-items{
+margin: 10px 0px;
+padding:20px;
+background-color: azure;
+border: solid 1px #9999994d;
+border-left: 10px solid red;
+height: 50px;
+}
+#create-new{
+
+}
+#to-bar-todo{
+
+}
+#header-todo{
+
+}
+#side-bar-create-new{
+
+}
+#nav-container-todo{
+
+}
+#home-menu-todo{
+
+}
+.menu-item-todo{
+
+}
+#main-create-new{
+
+}
+#textarea{
+
+}
+#create-new-menu{
+
+}
+#due-date{
+
+}
+#full-date{
+
+}
+#priority{
+
+}
+#low{
+
+}
+#medium{
+
+}
+#high{
+
+}
+#add-to-do{
+
+}
