@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;300;500&display=swap');
 
+@font-face {
+    font-family:'Roboto';
+    src:url('./Roboto-Regular.ttf') format('truetype'),
+    url('./Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 *{
     /* border:solid 1px red; */
     box-sizing: border-box;
@@ -10,6 +18,9 @@
 }
 .hello{
     color:red;
+    font-family:'Roboto';
+    font-size:2em ;
+    background: url('./icon.jpg');
 }
 h1,h2,h3,h4,h5,h6,p,div{
     margin:0;
@@ -35,7 +46,7 @@ body{
     background-color: ghostwhite;
 }
 #logo{
-    background-image: url(./logo.jpg);
+    background-image: url('./icon.jpg');
     width:65px;
     height: 60px;
     background-size: contain;
