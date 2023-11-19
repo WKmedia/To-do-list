@@ -1,19 +1,25 @@
+# Ignore package-lock.json or yarn.lock (depending on your package manager)
+package-lock.json
+ 
 # Ignore node_modules directory
 node_modules/
 
-# Ignore log files
+# Ignore logs and temporary files
+logs/
 *.log
+npm-debug.log*
 
-# Ignore environment-specific files
+# Ignore built files
+dist/
+build/
+
+# Ignore environment-specific configuration files
 .env
+.env.local
+.env.*.local
 
-# Ignore macOS system files
-.DS_Store
-
-# Ignore build or compiled files
-/dist/
-/build/
-
-# Ignore package-lock.json or yarn.lock (depending on your package manager)
-package-lock.json
-#yarn.lock
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
