@@ -83,7 +83,39 @@ function component() {
     homeMenuItemSpan5.setAttribute('id', 'home-menu-item5');
     homeMenuItem5.textContent = 'Work';
     homeMenuItemSpan5.textContent = 2;
+   
+    projectMenu.setAttribute('id', 'project-menu');
 
+    projectMenuItem1.setAttribute('class', 'project-menu-item');
+    projectMenuItem1.setAttribute('id', 'project-menu-item1');
+    projectMenuItemSpan1.setAttribute('id', 'project-menu-item1');
+    projectMenuItem1.textContent = 'Project';
+    projectMenuItemSpan1.textContent = 6;
+
+    projectMenuItem2.setAttribute('class', 'project-menu-item');
+    projectMenuItem2.setAttribute('id', 'project-menu-item2');
+    projectMenuItemSpan2.setAttribute('id', 'project-menu-item2');
+    projectMenuItem2.textContent = 'Today';
+    projectMenuItemSpan2.textContent = 5;
+    
+    projectMenuItem3.setAttribute('class', 'project-menu-item');
+    projectMenuItem3.setAttribute('id', 'project-menu-item3');
+    projectMenuItemSpan3.setAttribute('id', 'project-menu-item3');
+    projectMenuItem3.textContent = 'Upcoming';
+    projectMenuItemSpan3.textContent = 4;
+    
+    projectMenuItem4.setAttribute('class', 'project-menu-item');
+    projectMenuItem4.setAttribute('id', 'project-menu-item4');
+    projectMenuItemSpan4.setAttribute('id', 'project-menu-item4');
+    projectMenuItem4.textContent = 'Personal';
+    projectMenuItemSpan4.textContent = 3;
+    
+
+    noteLink.setAttribute('id', 'notes');
+    noteLinkItem.setAttribute('id', 'added-note');
+    noteLinkItem.textContent = 'Note\'s';
+    addNewButton.setAttribute('id', 'add-new');
+    addNewButton.textContent = '+';
     
     
     const myIcon = new Image();
@@ -93,8 +125,7 @@ function component() {
 
    
    
-      
-    // element.appendChild(myIcon);
+////////   SIDEBAR MENU & HEADER
     element.append(topBar)
     
   topBar.append(topBarImage)
