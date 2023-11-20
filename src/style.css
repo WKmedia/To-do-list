@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;300;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@100;300;500&display=swap'); */
 
 @font-face {
     font-family:'Roboto';
@@ -9,7 +9,7 @@
 }
 
 *{
-    /* border:solid 1px red; */
+    border:solid 1px red;
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -17,10 +17,11 @@
     list-style: none;
 }
 .hello{
+    width:100%;
     color:red;
     font-family:'Roboto';
-    font-size:2em ;
-    background: url('./icon.jpg');
+    /* font-size:2em ; */
+    /* background: url('./icon.jpg'); */
 }
 h1,h2,h3,h4,h5,h6,p,div{
     margin:0;
