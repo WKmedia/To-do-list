@@ -64,10 +64,11 @@ body{
 }
 #side-bar-container{
     background-color: antiquewhite;
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 #side-bar-nav{
     display: flex;
@@ -114,7 +115,7 @@ width: 100%;
 
 }
 #main{
-width: 75%;
+width: 80%;
 background-color: #9e9e9e1f;
 padding:20px;
 }
@@ -133,52 +134,100 @@ border-left: 10px solid red;
 height: 50px;
 }
 #create-new{
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    /* height: 350px; */
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    background-color: white;
+    box-shadow: 0px 0px 4px gray;
+    padding:15px;
 }
-#to-bar-todo{
-
+#top-bar-todo{
+    display: flex;
+    flex-wrap: wrap;
 }
 #header-todo{
-
+    width: 95%;
+}
+#close{
+    width:5%;
 }
 #side-bar-create-new{
-
+    width: 20%;
+    height: 325px;
+    padding: 10px;
+    background-color: #f8d5db;
+    margin-right: 5px;
 }
 #nav-container-todo{
-
+   
 }
 #home-menu-todo{
 
 }
 .menu-item-todo{
-
+    margin: 15px 0;
 }
 #main-create-new{
-
+    width: 79%;
 }
 #textarea{
+width:100%;
+height:68%;
+}
+#textarea-title{
+width:100%;
 
 }
 #create-new-menu{
 
 }
 #due-date{
-
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0;
 }
 #full-date{
 
 }
 #priority{
-
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#priority-sub-1{
+    
+}
+#priority-sub-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+/* width:25%; */
 }
 #low{
-
+    margin-left: 5px;
+    border: 3px solid yellow;
+    /* color: yellow; */
+    padding: 3px;
+    border-radius: 5px;
 }
 #medium{
-
+    margin-left: 5px;
+    border: 3px solid orange;
+    /* color: orange; */
+    padding: 3px;
+    border-radius: 5px;
 }
 #high{
-
+    margin-left: 5px;
+    border: 3px solid red;
+    /* color: red; */
+    padding: 3px;
+    border-radius: 5px;
 }
 #add-to-do{
 
