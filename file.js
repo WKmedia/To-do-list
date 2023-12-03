@@ -19,6 +19,9 @@ function component() {
     const noteLink = document.createElement('ul');
     const noteLinkItem = document.createElement('li');
     const addNewButton = document.createElement('button');
+    addNewButton.addEventListener('click', () => {
+        open();
+    })
 
     const mainDisplaySection = document.createElement('div');   
     const mainHeader = document.createElement('h3');   
@@ -323,9 +326,20 @@ addToDoBtn.textContent = 'Add To Do';
 const closeButton = document.createElement('button');
 closeButton.id = 'close';
 closeButton.textContent = 'x';
+closeButton.addEventListener('click', () => {
 
+        close();
+      });
 
-element.appendChild(createNewPopUp);
+function open() {
+    createNewPopUp.style.display = 'visible';
+  }
+
+  function close() {
+    this.createNewPopUp.style.display = 'none';
+  }
+
+// element.appendChild(createNewPopUp);
 createNewPopUp.appendChild(topBarTodo);
 createNewPopUp.appendChild(headerTodo);
 createNewPopUp.appendChild(sideBarCreateNew);

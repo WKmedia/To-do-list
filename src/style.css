@@ -130,8 +130,17 @@ margin: 10px 0px;
 padding:20px;
 background-color: azure;
 border: solid 1px #9999994d;
-border-left: 10px solid red;
+/* border-left: 10px solid red; */
 height: 50px;
+}
+.low{
+    border-left: 10px solid green;
+}
+.medium{
+    border-left: 10px solid orange;
+}
+.high{
+    border-left: 10px solid red;
 }
 #create-new{
     display: flex;
